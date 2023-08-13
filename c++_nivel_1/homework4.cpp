@@ -1,35 +1,60 @@
 #include <iostream>
-using namespace std; 
+#include <cctype>
 
-int main() { 
-
+int main() {
     char registro = 's';
     int referencia;
-    float talla, costo; 
+    float talla, costo;
     char descripcion[100];
 
-    while (registro == 's' || registro == 'S') { 
-
-        cout << endl << "Desea registrar otros zapatos (escriba S para sí o N para no) : ";
-        cin >> registro;
+    while (registro == 's' || registro == 'S') {
+        std::cout << std::endl << "Desea registrar otros zapatos (escriba S para sí o N para no) : ";
+        std::cin >> registro;
 
         if (registro == 's' || registro == 'S') {
-            cout << "Digite la referencia de los zapatos: ";
-            cin >> referencia;
-            cin.ignore();
+            bool referenciaValida = false;
+            while (!referenciaValida) {
+                std::cout << "Digite la referencia de los zapatos: ";
+                if (std::cin >> referencia) {
+                    referenciaValida = true;
+                } else {
+                    std::cout << "Error: Debe ingresar solo números para la referencia." << std::endl;
+                    std::cin.clear();
+                    while (std::cin.get() != '\n');
+                }
+            }
 
-            cout << "Digite una descripcion del zapato: ";
-            cin.getline(descripcion, 100);
+            std::cout << "Digite una descripción del zapato: ";
+            std::cin.ignore();
+            std::cin.getline(descripcion, 100);
 
-            cout << "Digite la talla : ";
-            cin >> talla;
+            bool tallaValida = false;
+            while (!tallaValida) {
+                std::cout << "Digite la talla : ";
+                if (std::cin >> talla) {
+                    tallaValida = true;
+                } else {
+                    std::cout << "Error: Debe ingresar solo números para la talla." << std::endl;
+                    std::cin.clear();
+                    while (std::cin.get() != '\n');
+                }
+            }
 
-            cout << "Digita el Costo del zapato: ";
-            cin >> costo;
+            bool costoValido = false;
+            while (!costoValido) {
+                std::cout << "Digita el costo del zapato: ";
+                if (std::cin >> costo) {
+                    costoValido = true;
+                } else {
+                    std::cout << "Error: Debe ingresar solo números para el costo." << std::endl;
+                    std::cin.clear();
+                    while (std::cin.get() != '\n');
+                }
+            }
         }
     }
 
-    cout << "FIN DE LA APLICACIÓN" << endl;
+    std::cout << "FIN DE LA APLICACIÓN" << std::endl;
 
     return 0;
 }
