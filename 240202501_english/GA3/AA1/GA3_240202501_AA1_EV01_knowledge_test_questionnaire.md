@@ -1,97 +1,102 @@
 **Pregunta 1:**
+
 They have a test tomorrow. They _________ study.
 
-a. Don´t have to
-**b. should** ✔️
-c. has to
-d. shouldn´t
-
+- Don´t have to
+- **should** ✔️
+- has to
+- shouldn´t
 
 **Pregunta 2:**
+
 Choose the correct option:
+
 having / next / Saturday / dinner / friends / her / She / with / is
 
-a. She is next Saturday having dinner with her friends
-b. She with her friends having dinner next Saturday
-c. She with her friends next Saturday is having dinner
-**d. She is having dinner with her friends next Saturday** ✔️
-
+- She is next Saturday having dinner with her friends
+- She with her friends having dinner next Saturday
+- She with her friends next Saturday is having dinner
+- **She is having dinner with her friends next Saturday** ✔️
 
 **Pregunta 3:**
+
 We _______ pay taxes every year.
 
-a. must
-**b. have to** ✔️
-c. can
-d. should
-
+- must
+- **have to** ✔️
+- can
+- should
 
 **Pregunta 4:**
+
 He _______ be a rich person. He has an airplane.
 
-**a. must** ✔️
-b. should
-c. has to
-d. shouldn´t
-
+- **must** ✔️
+- should
+- has to
+- shouldn´t
 
 **Pregunta 5:**
+
 Choose the correct option:
+
 is / She / buy / tomorrow / new / car / a / going to
 
-**a. She is going to buy a new car tomorrow** ✔️
-b. She will going buy a new car tomorrow
-c. She tomorrow is going to buy a new car
-d. She buy a new car tomorrow is going to
-
+- **She is going to buy a new car tomorrow** ✔️
+- She will going buy a new car tomorrow
+- She tomorrow is going to buy a new car
+- She buy a new car tomorrow is going to
 
 **Pregunta 6:**
+
 Amanda ________ to pay for the hotel. The company does.
 
-**a. must not** ✔️
-b. have to
-c. can
-d. should
-
+- **must not** ✔️
+- have to
+- can
+- should
 
 **Pregunta 7:**
+
 Choose the correct option:
+
 like / to / They / would / abroad / live
 
-a. They like to live abroad
-b. They like to would live abroad
-**c. They would like to live abroad**
-d. They would live to like abroad
-
+- They like to live abroad
+- They like to would live abroad
+- **They would like to live abroad** ✔️
+- They would live to like abroad
 
 **Pregunta 8:**
+
 Choose the correct option:
+
 will / Ana / arrives / she /late / be / if / again / fired
 
-a. Ana if arrives will be fired if she late again
-**b. Ana will be fired if she arrives late again** ✔️
-c. If she arrives late again Ana will be fired
-d. Ana will fired be if she arrives late again
-
+- Ana if arrives will be fired if she late again
+- **Ana will be fired if she arrives late again** ✔️
+- If she arrives late again Ana will be fired
+- Ana will fired be if she arrives late again
 
 **Pregunta 9:**
+
 You ___________ drink too much soda.
 
-a. can
-b. must
-c. shouldn´t ✔️
-d. don´t have to
-
+- can
+- must
+- **shouldn´t** ✔️
+- don´t have to
 
 **Pregunta 10:**
+
 Choose the correct option:
+
 does / rain / will / it / The / not / if / kids / bikes / ride / their
 
-a. The kids will ride their bikes if it does not rain ✔️
-b. The kids does ride their bikes if it will not rain
-c. If it does not rain the kids will ride their bikes
-d. The kids will bikes their ride if it does not rain
-
+- **The kids will ride their bikes if it does not rain** ✔️
+- The kids does ride their bikes if it will not rain
+- If it does not rain the kids will ride their bikes
+- The kids will bikes their ride if it does not rain
 
 # READING COMPREHENSION
 
@@ -104,22 +109,21 @@ Select the best options for completing the gaps from 6 to 10
 Based on the text choose the most suitable option for each one of the gaps:
 
 Gap 6
-a. living
-**b. working** ✔️
+- a. living
+- **b. working** ✔️
 
 Gap 7
-a. shopping
-**b. sleeping** ✔️
+- a. shopping
+- **b. sleeping** ✔️
 
 Gap 8
-a. shopping
-**b. living** ✔️
+- a. shopping
+- **b. living** ✔️
 
 Gap 9
-a. do
-**b. doing** ✔️
+- a. do
+- **b. doing** ✔️
 
 Gap 10
-a. staying
-**b. to sleep** ✔️
-
+- a. staying
+- **b. to sleep** ✔️
