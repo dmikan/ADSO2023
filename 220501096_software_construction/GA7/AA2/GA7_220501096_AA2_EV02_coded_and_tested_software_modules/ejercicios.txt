@@ -1,0 +1,9 @@
+EJERCICIOS PHP
+
+Por favor realizar los siguientes ejercicios en PHP. Utilizando (Condiciones, Ciclos Repetitivos y Switch) Dependiendo del caso de cada ejercicio.
+
+1.	Mostrar los números pares del 1 al 20
+2.	Identificar el mayor de tres números
+3.	Genera un triángulo de asteriscos utilizando dos ciclos anidados.
+4.	Genere un programa utilizando foreach.
+5.	Utilizando Switch (Dado un número entre 0 y 100, clasifica la calificación como Excelente, Bueno, Regular o Insuficiente)
