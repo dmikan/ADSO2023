@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Panel de Turismo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Turismo Explorer</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Destinos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Paquetes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container text-center mt-5">
+            <h1 class="mb-4">Explora el Mundo con Nosotros</h1>
+            <p class="lead">Descubre los destinos más hermosos y vive experiencias inolvidables.</p>
+
+            <div class="row mt-4">
+                <div class="col-md-6 offset-md-3">
+                    <!-- Espacio para la imagen -->
+                    <img src="https://uafam.edu.do/wp-content/uploads/2022/09/turismo.jpg" class="img-fluid rounded" alt="Imagen de turismo" />
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-md-6 mb-3">
+                    <a th:href="@{/listar}" class="btn btn-primary btn-block">Registrar Clientes</a>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <a th:href="@{/listarTP}" class="btn btn-primary btn-block">Registrar Destinos</a>
+                </div>
+            </div>
+        </div>
+
+        <footer class="bg-light text-center py-3 mt-5">
+            <p>&copy; 2024 Turismo Explorer. Todos los derechos reservados.</p>
+        </footer>
+    </body>
+</html>
