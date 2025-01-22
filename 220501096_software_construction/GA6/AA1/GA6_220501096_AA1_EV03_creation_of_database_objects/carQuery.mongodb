@@ -1,0 +1,69 @@
+// Connect to the database called 'car_dealer'
+use('car_dealer')
+
+// Insert a single document into the 'cars' collection
+db.cars.insertOne({
+    license_plate: "ABC123",
+    vehicle_identification_number: "1HGCM82633A123456",
+    model: 2023,
+    brand: "Toyota",
+    kilometer_reading: 30000 
+})
+
+// Insert multiple documents into the 'cars' collection using insertMany
+db.cars.insertMany([
+    {
+        license_plate: "XYZ789",
+        vehicle_identification_number: "2FTRX18W1XCA12345",
+        model: 2021,
+        brand: "Ford",
+        kilometer_reading: 45000
+    },
+    {
+        license_plate: "LMN456",
+        vehicle_identification_number: "3N1BC13E38L123456",
+        model: 2020,
+        brand: "Nissan",
+        kilometer_reading: 35000
+    },
+    {
+        license_plate: "JKL321",
+        vehicle_identification_number: "5UXWX7C56E0D12345",
+        model: 2022,
+        brand: "BMW",
+        kilometer_reading: 20000
+    },
+    {
+        license_plate: "GHI654",
+        vehicle_identification_number: "WAUZZZ8V1DA123456",
+        model: 2019,
+        brand: "Audi",
+        kilometer_reading: 60000
+    }
+]);
+
+// Insert another single document into the collection
+db.cars.insertOne({
+    license_plate: "IND123",
+    vehicle_identification_number: "JHMCM56557C403024",
+    model: 2019,
+    brand: "Hyundai",
+    kilometer_reading: 80000
+});
+
+// updateOne: Only the first document that matches the filter condition will be updated, according to the internal order of the documents in the database. If you need to work with all documents that have the same license_plate, use updateMany.
+
+db.cars.updateOne(
+    { license_plate: "ABC123" }, 
+    { $set: { model: 2025 } }   
+);
+
+// deleteOne: Only the first document that matches the filter will be deleted. If you need to work with all documents that have the same license_plate, use deleteMany.
+
+db.cars.deleteOne(
+    { license_plate: "IND123" } 
+);
+
+
+
+db.cars.find({})
